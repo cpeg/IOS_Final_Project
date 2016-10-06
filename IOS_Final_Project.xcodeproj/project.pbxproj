@@ -17,6 +17,12 @@
 		68796D4A1DA6A20200F3EC54 /* IOS_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68796D491DA6A20200F3EC54 /* IOS_Final_ProjectUITests.swift */; };
 		7D20CB0C1DA6AF14008B9D94 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20CB0B1DA6AF14008B9D94 /* ThirdViewController.swift */; };
 		7D20CB0E1DA6AF23008B9D94 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D20CB0D1DA6AF23008B9D94 /* FourthViewController.swift */; };
+		7D20CB101DA6B580008B9D94 /* Week.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB0F1DA6B580008B9D94 /* Week.png */; };
+		7D20CB121DA6B587008B9D94 /* Message-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB111DA6B587008B9D94 /* Message-25.png */; };
+		7D20CB141DA6B591008B9D94 /* Day.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB131DA6B591008B9D94 /* Day.png */; };
+		7D20CB161DA6B599008B9D94 /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB151DA6B599008B9D94 /* User.png */; };
+		7D20CB181DA6B632008B9D94 /* Message.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB171DA6B632008B9D94 /* Message.png */; };
+		7D20CB1A1DA6B82B008B9D94 /* Scheduler.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20CB191DA6B82B008B9D94 /* Scheduler.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		68796D4B1DA6A20200F3EC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D20CB0B1DA6AF14008B9D94 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		7D20CB0D1DA6AF23008B9D94 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		7D20CB0F1DA6B580008B9D94 /* Week.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Week.png; sourceTree = "<group>"; };
+		7D20CB111DA6B587008B9D94 /* Message-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Message-25.png"; path = "IOS_Final_Project/Message-25.png"; sourceTree = "<group>"; };
+		7D20CB131DA6B591008B9D94 /* Day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Day.png; sourceTree = "<group>"; };
+		7D20CB151DA6B599008B9D94 /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		7D20CB171DA6B632008B9D94 /* Message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Message.png; path = IOS_Final_Project/Message.png; sourceTree = "<group>"; };
+		7D20CB191DA6B82B008B9D94 /* Scheduler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scheduler.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 				68796D3D1DA6A20200F3EC54 /* IOS_Final_ProjectTests */,
 				68796D481DA6A20200F3EC54 /* IOS_Final_ProjectUITests */,
 				68796D251DA6A20200F3EC54 /* Products */,
+				7D20CB111DA6B587008B9D94 /* Message-25.png */,
+				7D20CB171DA6B632008B9D94 /* Message.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +117,10 @@
 		68796D261DA6A20200F3EC54 /* IOS_Final_Project */ = {
 			isa = PBXGroup;
 			children = (
+				7D20CB191DA6B82B008B9D94 /* Scheduler.png */,
+				7D20CB151DA6B599008B9D94 /* User.png */,
+				7D20CB131DA6B591008B9D94 /* Day.png */,
+				7D20CB0F1DA6B580008B9D94 /* Week.png */,
 				68796D271DA6A20200F3EC54 /* AppDelegate.swift */,
 				68796D291DA6A20200F3EC54 /* FirstViewController.swift */,
 				68796D2B1DA6A20200F3EC54 /* SecondViewController.swift */,
@@ -238,9 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D20CB141DA6B591008B9D94 /* Day.png in Resources */,
+				7D20CB1A1DA6B82B008B9D94 /* Scheduler.png in Resources */,
+				7D20CB161DA6B599008B9D94 /* User.png in Resources */,
 				68796D341DA6A20200F3EC54 /* LaunchScreen.storyboard in Resources */,
+				7D20CB181DA6B632008B9D94 /* Message.png in Resources */,
 				68796D311DA6A20200F3EC54 /* Assets.xcassets in Resources */,
 				68796D2F1DA6A20200F3EC54 /* Main.storyboard in Resources */,
+				7D20CB121DA6B587008B9D94 /* Message-25.png in Resources */,
+				7D20CB101DA6B580008B9D94 /* Week.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

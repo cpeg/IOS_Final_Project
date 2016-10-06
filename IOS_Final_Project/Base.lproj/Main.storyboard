@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Sheduler-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="IOS_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Sheduler" image="Scheduler.png" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Item-->
+        <!--Day-->
         <scene sceneID="7at-BC-e9Z">
             <objects>
                 <viewController id="iNR-Ce-xmP" customClass="ThirdViewController" customModule="IOS_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ov7-9W-zL5"/>
+                    <tabBarItem key="tabBarItem" title="Day" image="Day.png" id="Ov7-9W-zL5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImG-IY-Lau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18" y="774"/>
         </scene>
-        <!--Second-->
+        <!--Week-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="IOS_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -55,13 +55,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Week" image="Week.png" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1579.5" y="279"/>
         </scene>
-        <!--Item-->
+        <!--Student-->
         <scene sceneID="4jR-qn-G1m">
             <objects>
                 <viewController id="T6T-Ve-bga" customClass="FourthViewController" customModule="IOS_Final_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -73,7 +73,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="kve-0t-dCs"/>
+                    <tabBarItem key="tabBarItem" title="Student" image="User.png" id="kve-0t-dCs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EID-El-aKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,7 +102,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="Day.png" width="25" height="25"/>
+        <image name="Scheduler.png" width="25" height="25"/>
+        <image name="User.png" width="25" height="25"/>
+        <image name="Week.png" width="25" height="25"/>
     </resources>
 </document>

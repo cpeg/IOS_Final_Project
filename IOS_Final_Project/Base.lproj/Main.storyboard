@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sheduler-->
@@ -35,7 +36,61 @@
                     <view key="view" contentMode="scaleToFill" id="ttj-N8-tWd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PQr-bc-laR">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="am" id="u2X-TA-nyo">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u2X-TA-nyo" id="qJy-0o-bqN">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.40108410475219214" green="1" blue="0.34711265512699363" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="pm" id="HxS-AV-eaC">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HxS-AV-eaC" id="bUw-5O-vSd">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="1" green="0.14533722667331217" blue="0.21247619865352718" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PQr-bc-laR" firstAttribute="leading" secondItem="ttj-N8-tWd" secondAttribute="leadingMargin" id="AHF-0E-tSV"/>
+                            <constraint firstItem="PQr-bc-laR" firstAttribute="top" secondItem="cRy-Aa-9Sb" secondAttribute="bottom" id="Idm-Wq-v9S"/>
+                            <constraint firstAttribute="bottom" secondItem="PQr-bc-laR" secondAttribute="bottom" constant="20" symbolic="YES" id="JXI-lU-Xx0">
+                                <variation key="widthClass=compact" constant="87"/>
+                            </constraint>
+                            <constraint firstItem="PQr-bc-laR" firstAttribute="trailing" secondItem="ttj-N8-tWd" secondAttribute="trailingMargin" id="mTf-mx-8dm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="PQr-bc-laR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AHF-0E-tSV"/>
+                                <exclude reference="Idm-Wq-v9S"/>
+                                <exclude reference="JXI-lU-Xx0"/>
+                                <exclude reference="mTf-mx-8dm"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="PQr-bc-laR"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AHF-0E-tSV"/>
+                                <include reference="Idm-Wq-v9S"/>
+                                <include reference="JXI-lU-Xx0"/>
+                                <include reference="mTf-mx-8dm"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="Day" image="Day.png" id="Ov7-9W-zL5"/>
                 </viewController>
